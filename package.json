@@ -1,5 +1,5 @@
 {
-  "name": "@sven0706/mobile-fontSize",
+  "name": "@sven0706/mobile-fontsize",
   "version": "1.0.0",
   "description": "移动端自动设置根元素font-size, 支持横竖屏。 同时提供全屏切换函数",
   "main": "./dist/index.js",

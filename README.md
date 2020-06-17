@@ -3,10 +3,10 @@
 ### 使用步骤
 ```
 //安装
-npm install @sven0706/mobile-fontSize -S
+npm install @sven0706/mobile-fontsize -S
 
 //引入&使用
-import '@sven0706/mobile-fontSize'
+import '@sven0706/mobile-fontsize'
 
 ```
 
@@ -15,7 +15,7 @@ import '@sven0706/mobile-fontSize'
 
 如果要使用内置的全屏切换函数，请按如下方法引入
 ```
-import { requestFullScreen, exitFullscreen, fullscreenEnable, fullscreenElement } from '@sven0706/mobile-fontSize'
+import { requestFullScreen, exitFullscreen, fullscreenEnable, fullscreenElement } from '@sven0706/mobile-fontsize'
 
 // requestFullScreen 进入全屏
 // exitFullscreen 退出全屏
