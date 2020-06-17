@@ -1,12 +1,19 @@
 {
   "name": "mobile-fontSize",
   "version": "1.0.0",
-  "description": ">更多函数开发中",
-  "main": "/dist/index.js",
+  "description": "移动端自动设置根元素font-size, 支持横竖屏。 同时提供全屏切换函数",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "my-publish": "npm publish --access public"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
